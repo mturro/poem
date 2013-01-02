@@ -1,5 +1,4 @@
-## Poem(s) (for now, but seriously considering renaming to "Cantos" or some other indication that this is in fact a single work.)
-
+## Poem 
 This repository is a work-in-progress poem (a collection of cantos perhaps) written in the markdown syntax. It started as an attempt to expose my creative process (to myself and to anyone who may care to watch) and track the nature and number of edits a final version of a given poem will go through. I decided to use git (as opposed to some other tool like mediawiki) simply because it makes sense to me and it's a tool I use on a daily basis. I also found it affords a level of textual simplicty that more bloated CMS style tools loose in their effort to be complete publishing tools. In the process of thinking through the implications of using a code management toolchain to write poetry I became quite interested in exploring how true the old Wordpress tag "Code is Poetry" is and whether it runs in the inverse (ie "Poetry is Code").
 
 # A note about forking
