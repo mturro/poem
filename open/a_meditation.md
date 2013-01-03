@@ -5,12 +5,14 @@ Something inside me, some need to
 > defend myself against the   
 > rough and mean spirits  
 > of a hard-lined, hard-hearted  
-> socio-cultural malaise.  
+> socio-cultural malaise.
+    
 Something keeps telling me I need to meditate.   
-Something without me, some lost  
+Something without me, some lost    
 > and wandering window of  
 > time spread out against  
 > itself like an old master  
 > a poem of tired retreat.  
+  
 Something keeps telling me I need to meditate.  
  
