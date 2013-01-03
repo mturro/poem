@@ -1,6 +1,6 @@
 ## a meditation opens
 December 21, 2012 2:19 PM  
-Something keeps telling me I need to meditate. 
+Something keeps telling me I need to meditate.   
 Something inside me, some need to   
 	defend myself against the   
 	rough and mean spirits  
