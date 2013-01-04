@@ -5,6 +5,10 @@ Super-efficient lollipop machined to
 Wrapped in and out with an orange and  
     glow that feels outside of natural.
 
+**marginal food**
+**almost edible**
+**dyspeptic and heartless it dominates through some unknowable magic**
+
 Is it the factory, {the machine}, the automatic  
     wind of mass production that seeps itself  
 in a cloud, as a datapoint, as an enumerated  
