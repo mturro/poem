@@ -1,16 +1,19 @@
 ## Notes on craft
 ```
-This barbaric lollipop against the craft  
-    spills into the other end of the day.  
-There is something in the orange and  
+Super-efficient lollipop machined to   
+    the end of bleached white stick,  
+Wrapped in and out with an orange and  
     glow that feels outside of natural.
 
-Is it a factory, a machine, an automated  
-    wind of overworked hair-netted thought?  
-Is it a cloud, a datapoint, an enumerated  
+Is it the factory, {the machine}, the automatic  
+    wind of mass production that seeps itself  
+in a cloud, as a datapoint, as an enumerated  
     step on a list where this happens then that?  
-Is it a store, a product, an incorporated  
-    conglomerate of chemical modification?  
+
+Is it the store, {the product}, the incorporated  
+    conglomerate of chemical modification born
+for the market in air conditioned focus groups   
+    shielded from the heat by shopping malls?  
 
 Somewhere in this process is the thing  
     that makes us all human again.   
