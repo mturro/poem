@@ -8,8 +8,8 @@ Something inside me, some need to
 > socio-cultural malaise.
     
 Something keeps telling me I need to meditate.   
-Something without me, some lost    
-> and wandering window of  
+Something without me, some lost and   
+> wandering window of  
 > time spread out against  
 > itself like an old master  
 > a poem of tired retreat.  
