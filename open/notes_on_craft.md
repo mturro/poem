@@ -10,7 +10,7 @@ glow that feels outside of natural.
 
 …no, fuck that. i know the magic.   
 
-it's Bernays' sauce.
+it's [Bernays' sauce](http://en.wikipedia.org/wiki/Edward_Bernays).
 
 it's the factory, {the machine}, the automatic    
 wind of mass production that seeps itself    
