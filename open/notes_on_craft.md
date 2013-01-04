@@ -1,5 +1,5 @@
 ## Notes on craft
-This barbaric lollipop against the craft  
+```This barbaric lollipop against the craft  
     spills into the other end of the day.  
 There is something in the orange and  
     glow that feels outside of natural.
@@ -14,4 +14,4 @@ Is it a store, a product, an incorporated
 Somewhere in this process is the thing  
     that makes us all human again.   
 Some slow familiar foam bubbles in the  
-    gaslit boroughs of the ego branded city.  
+    gaslit boroughs of the ego branded city.```  
