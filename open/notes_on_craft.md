@@ -22,7 +22,7 @@ conglomerate of chemical modification born
 for the market in air conditioned focus groups     
 shielded from the heat by shopping malls.   
 
-it's the sweet need of inclusion. 
+it's the sweet need for inclusion. 
 
 (Somewhere in this process is the thing)  
 (that makes us all human again.)   
