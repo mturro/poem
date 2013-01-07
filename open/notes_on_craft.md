@@ -17,7 +17,7 @@ wind of mass production that seeps itself
 in a cloud, as a datapoint, as an enumerated    
 step on a list where this happens then that.    
 
-it's the store, {the product}, the sweet 
+it's the store, {the product}, the sweet   
 need for inclusion planted in the air            
 conditioned subconscious and shielded from           
 the growing heat by your American shopping malls.   
