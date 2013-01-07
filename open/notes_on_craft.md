@@ -17,12 +17,12 @@ wind of mass production that seeps itself
 in a cloud, as a datapoint, as an enumerated    
 step on a list where this happens then that.    
 
-it's the store, {the product}, the incorporated    
-conglomerate of chemical modification born  
-for the market in air conditioned focus groups     
-shielded from the heat by shopping malls.   
+it's the store, {the product}, the sweet 
+need for inclusion planted in the air            
+conditioned subconscious and shielded from           
+the growing heat by your American shopping malls.   
 
-it's the sweet need for inclusion. 
+yes, it's the sweet need for inclusion. 
 
 (Somewhere in this process is the thing)  
 (that makes us all human again.)   
