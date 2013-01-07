@@ -1,7 +1,7 @@
 ## Notes on craft (and Kraft)
 Super-efficient lollipop machined to     
 the end of bleached white stick,  
-Wrapped in and out with an orange and    
+Wrapped in and out with an orange      
 glow that feels outside of natural.
 
 **marginal food**  
