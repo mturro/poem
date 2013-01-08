@@ -5,7 +5,7 @@ who is certain that this experiment
 is a failure.  
 
 This person is busy prepping for  
-the time when this experiment finally
+the time when this experiment finally  
 shows itself for what it is.  
 
 This person is hording and stocking  
@@ -14,7 +14,7 @@ against the eventual failure of
 this experiment.
 
 This person is reading, reverberating,  
-inoculating themselves against the slow drip
+inoculating themselves against the slow drip  
 media of this experiment.
 
 This person has no faith in the rightness  
