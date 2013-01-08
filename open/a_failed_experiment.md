@@ -8,12 +8,12 @@ This person is busy prepping for
 the time when this experiment finally
 shows itself for what it is.  
 
-This person is hording and stocking
+This person is hording and stocking  
 cans and seeds and weapons as protection  
 against the eventual failure of  
 this experiment.
 
-This person is reading, reverberating,
+This person is reading, reverberating,  
 inoculating themselves against the slow drip
 media of this experiment.
 
