@@ -1,9 +1,9 @@
 ## a long division
 
 He stood in front of sliding glass looking out and over the pink  
-			of a crayon colored number 2  
+			of a crayon colored number {2}  
 				past the weathered wooden deck   
-					into a damp winter-gray  
+					into a winter-gray  
 					yard.  
 
 Color, sleeping since fall, made a stand against the season  
@@ -36,7 +36,7 @@ on that spot(•),
 			that crayon colored {2}  
 that he had let some part of himself oversleep.  
 			that crayon colored {2}  
-was:  
+was===  
 		more than just a happy reminder 
 			of everything that he had===  		
 			more than just a simple cut out 
@@ -48,18 +48,19 @@ As he stood THERE(|) looking out and over
 				he was looking forward to be sure.  
 				 But there was some critical part of him===  
 				 some memory of the person he used to want to be===  
-				 that was just now emerging  
-				 from the fog of a unfortunately warm  
+				 just now emerging  
+				 from the fog of 
+				 an unfortunately warm  
 				 January mist.  
 
-Perhaps (if !=he) stood THERE(|?) in parallel.  
+Perhaps he stood THERE(|?) in parallel.  
 	Perhaps THERE(|?) was a former future version of himself  
 		THERE(|?) next to him thinking less technically  
 			about the color of the  
 				yard.   
 
-It would be / had to be him,   
-him as a splinter of time. 
+if It=him at all   
+It(!===him) but (him = "splinter of time") 
 
 The two of them stood THERE(||)  
 looking out through sliding glass  
