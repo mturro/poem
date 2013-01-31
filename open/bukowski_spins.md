@@ -1,5 +1,5 @@
 ## Bukowski spins  
-"Food to share."    
+"Food to share"    
 A warm and inviting sentiment    
 painted white across a green wooden   
 box, weathered by time and and chipped by   
@@ -26,8 +26,7 @@ low-level, fast-food, high fructose content hacks.
 There is something in his approach that we can use to    
 sell this thing that nobody anywhere will ever really need.   
 
-"Food to share."  
-Pure healthy green food to share.  
+"Food to share"  
 Grown and given for no other reason   
 than the rightness of feeding each other.  
 At human scale, face to face, food is poetry.     
