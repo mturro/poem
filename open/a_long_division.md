@@ -1,6 +1,6 @@
 ## a long division
 
-I stood before the sliding glass looking 
+I stood before the sliding glass looking   
 out and over the manufactured pink  
 of a crayon colored number two, past  
 the weathered wooden deck and into the   
