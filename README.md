@@ -10,3 +10,5 @@ At some point in the very early onset of this experiment it became clear to me t
 # Metadata
 While there is no formal metadata syntax at the outset of this project, I am considering using a standardized metadata format (some sort of YAML perhaps) and will update this space with that information when I have decided on what, if anything, it will be.
 
+# Further Thoughts
+For more on the what if this all check the wiki and be sure to read commit messages - some are informative.
