@@ -8,24 +8,32 @@ fenced stillness of a winter-gray morning.
 
 Color, sleeping since fall, made it's stand    
 against the season in the bright yellow     
-plastic and chains of a wooden playset      
+plastic and chains of a cedar playset      
 unused yet swinging in invisible   
 wind where the lot stopped and the field began.  
 
 The new year had come and brought with it the    
-things that new years bring–new books new money  
-new television new recordings of   
+things that new years bring–new books, new money  
+new television, new recordings of   
 new people with new and rambling lists of   
-things to do or never to do again.   
+things to do or never to do again.
 
+It, the new year, also brought time to mind.    
+Time, which tends to pool at the start of years      
+among scraps of thought and holiday fat–    
+Time, evident in the long beard and grease 
+stained pajammas that told tales of bacon–  
 
-(Insert stanza dealing with contentment)
+Then time in its own context turned itself  
+from the cold now of the new year to a      
+faint image caught in a silverless glass.  
+My refelection perhaps? Though not of me
+it was me. Connected yet not the same.   
 
-
-Yet there in the kitchen before breakfast    
-with morning spilling through me note by note  
-I could feel some forked version of myself  
-whose thought though distant still twisted in mine  
+Yes, there in the kitchen, before breakfast,    
+with morning spilling through me note by note,  
+I could see some forked version of myself  
+whose thought, while distant, seemed twisted in mine  
 like white milk swirling in dark black coffee.   
         
 As I was looking forward to the new    
@@ -36,26 +44,3 @@ fog of memory and thought and dream like
 a fault in time both present and remote.  
 
 
-
-SCRAPS----->
-The two of us stood there  
-looking out through sliding glass  
-only just now becoming aware  
-of each other.  
-We lived two of many worlds  
-impossible and unknowable  
-and cosmically remote. Yet we were  
-THERE(|) together alone with only images  
-for communication. Impressions,  
-a shared qualia 
-so fine    
-so particular  
-yet not necessarily solitary 
-a current along some unidentifiable field. 
-
-The coffee was ready. 
-	One drip, one press  
-		one dark, one blonde    
-			one mug, one cup    
-				one milk  
-					one sugar.   
