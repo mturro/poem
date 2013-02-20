@@ -21,13 +21,13 @@ things to do or never to do again.
 It, the new year, also brought time to mind.    
 Time, which tends to pool at the start of years      
 among scraps of thought and holiday fat–    
-Time, evident in the long beard and grease 
+Time, evident in the long beard and grease  
 stained pajammas that told tales of bacon–  
 
 Then time in its own context turned itself  
 from the cold now of the new year to a      
 faint image caught in a silverless glass.  
-My refelection perhaps? Though not of me
+My refelection perhaps? Though not of me  
 it was me. Connected yet not the same.   
 
 Yes, there in the kitchen, before breakfast,    
