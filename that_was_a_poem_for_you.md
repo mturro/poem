@@ -1,7 +1,7 @@
 i so want to send you  
 so so want to  
 really  
-no even kidding  
+not even kidding  
 just saying  
 i want to send you  
 there  
