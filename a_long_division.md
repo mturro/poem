@@ -20,27 +20,28 @@ things to do or never to do again.
 
 It, the new year, also brought time to mind.    
 Time, which tends to pool at the start of years      
-among scraps of thought and holiday fat–    
+among scraps of thought and holiday fat.    
 Time, evident in the long beard and grease  
-stained pajammas that told tales of bacon–  
+stained pajammas that told tales of bacon.   
 
 Then time in its own context turned itself  
 from the cold now of the new year to a      
 faint image caught in a silverless glass.  
-My refelection perhaps? Though not of me  
+A refelection perhaps? Though not of me  
 it was me. Connected yet not the same.   
 
-Yes, there in the kitchen, before breakfast,    
+Did I, in the kitchen, before breakfast,    
 with morning spilling through me note by note,  
-I could see some forked version of myself  
-whose thought, while distant, seemed twisted in mine  
-like white milk swirling in dark black coffee.   
+manage to catch some fork of myself  
+whose thought, while distant, still twisted in mine  
+like white milk swirling in dark black coffee?   
         
-As I was looking forward to the new    
-year here was some version of me perhaps    
-some shadow of the person I used to  
-want to be lingering in a soft-boiled  
-fog of memory and thought and dream like    
-a fault in time both present and remote.  
+Is this the poet? The publisher? The  
+rockstar? The writer? The critic? The fool?  
+Is this the quantum pilot who through the   
+study of Everett and Blake found a way   
+to cross dimmensions using nothing but thought?  
+
+I wondered and the words came back to me.  
 
 
