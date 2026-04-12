@@ -74,6 +74,43 @@ footer {
 footer a { color: var(--fg-dim); }
 footer a:hover { color: var(--link); }
 
+/* ── readme ── */
+.readme-index,
+.readme {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5rem;
+  margin-bottom:  0.5rem;
+}
+
+.readme-index h3,
+.readme h3 {
+  font-size:     0.95rem;
+  font-weight:   normal;
+  color:         var(--fg-bright);
+  margin:        1.5rem 0 0.4rem;
+}
+
+.readme-index h3:first-child,
+.readme h3:first-child { margin-top: 0.5rem; }
+
+.readme-index p,
+.readme p {
+  color:      var(--fg);
+  max-width:  68ch;
+  margin-bottom: 0.75rem;
+}
+
+.readme-index strong,
+.readme strong { color: var(--fg-bright); }
+
+.readme-index a,
+.readme a { color: var(--link); }
+
+.readme-more {
+  margin-top: 0.75rem;
+  font-size:  0.82rem;
+}
+
 /* ── index: subtitle ── */
 .subtitle {
   font-size: 0.82rem;

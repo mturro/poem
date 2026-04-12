@@ -112,6 +112,46 @@ function renderDiff(raw) {
   return out.join('\n');
 }
 
+// ─── markdown renderer (covers the subset used in README.md) ─────────────────
+
+function renderMarkdown(text) {
+  const lines  = text.split('\n');
+  const out    = [];
+  let para     = [];
+
+  function flushPara() {
+    if (!para.length) return;
+    const inner = para.join(' ').trim();
+    if (inner) out.push(`<p>${inlineMarkdown(inner)}</p>`);
+    para = [];
+  }
+
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+    const heading = line.match(/^(#{1,3})\s+(.+)/);
+    if (heading) {
+      flushPara();
+      const level = Math.min(heading[1].length + 2, 6); // h1→h3, h2→h4 …
+      out.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+    } else if (line === '') {
+      flushPara();
+    } else {
+      para.push(line);
+    }
+  }
+  flushPara();
+  return out.join('\n');
+}
+
+function inlineMarkdown(s) {
+  return esc(s)
+    // links  [text](url)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, text, url) =>
+      `<a href="${url}" rel="noopener">${text}</a>`)
+    // bold   **text**
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+}
+
 // ─── html templates ───────────────────────────────────────────────────────────
 
 function page(title, body) {
@@ -129,7 +169,25 @@ ${body}
 </html>`;
 }
 
-function indexPage(poems, commits) {
+function readmePage(readmeHtml) {
+  return page('about — mturro/poem', `<header>
+  <a href="index.html" class="back">&larr; mturro/poem</a>
+  <h1>README.md</h1>
+  <p class="cmd"><code>$ cat README.md</code></p>
+</header>
+
+<main>
+  <article class="readme">
+${readmeHtml}
+  </article>
+</main>
+
+<footer>
+  <a href="${REPO}/blob/master/README.md" rel="noopener">view on github</a>
+</footer>`);
+}
+
+function indexPage(poems, commits, readmeHtml) {
   const firstDate = commits[commits.length - 1]?.date ?? '';
   const lastDate  = commits[0]?.date ?? '';
 
@@ -155,6 +213,11 @@ function indexPage(poems, commits) {
 </header>
 
 <main>
+  <section class="readme-index">
+${readmeHtml}
+    <p class="readme-more"><a href="readme.html">README.md &rarr;</a></p>
+  </section>
+
   <section>
     <h2>poems</h2>
     <ul class="poem-list">
@@ -238,14 +301,19 @@ const poemFiles = fs.readdirSync(ROOT)
   .filter(f => f.endsWith('.md') && f !== 'README.md')
   .sort();
 
-const poems   = poemFiles.map(filename => ({ filename, commits: fileCommits(filename) }));
-const commits = allCommits();
+const poems     = poemFiles.map(filename => ({ filename, commits: fileCommits(filename) }));
+const commits   = allCommits();
+const readmeRaw = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
+const readmeHtml = renderMarkdown(readmeRaw);
 
 fs.mkdirSync(DIST, { recursive: true });
 fs.copyFileSync(path.join(__dirname, 'src', 'style.css'), path.join(DIST, 'style.css'));
 
-fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(poems, commits));
+fs.writeFileSync(path.join(DIST, 'index.html'), indexPage(poems, commits, readmeHtml));
 console.log('  index.html');
+
+fs.writeFileSync(path.join(DIST, 'readme.html'), readmePage(readmeHtml));
+console.log('  readme.html');
 
 for (const { filename, commits: c } of poems) {
   fs.writeFileSync(path.join(DIST, `${slug(filename)}.html`), poemPage(filename, c));
