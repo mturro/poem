@@ -62,6 +62,12 @@ function fileCommits(filename) {
   }).reverse();
 }
 
+// all filenames changed in a commit
+function commitFiles(sha) {
+  return git(`diff-tree --no-commit-id -r --name-only ${sha}`)
+    .split('\n').filter(Boolean);
+}
+
 // unified diff for one commit's changes to one file
 function fileDiff(sha, filename) {
   const parents = git(`rev-list --parents -n 1 ${sha}`).split(' ').slice(1);
@@ -137,7 +143,7 @@ function indexPage(poems, commits) {
 
   const logLines = commits.map(({ short, sha, date, message }) =>
     `    <div class="log-line">` +
-    `<a href="${REPO}/commit/${sha}" class="sha" rel="noopener">${short}</a>` +
+    `<a href="${short}.html" class="sha">${short}</a>` +
     `<span class="date">${date}</span>` +
     `<span class="msg">${esc(message)}</span>` +
     `</div>`
@@ -169,13 +175,39 @@ ${logLines}
 </footer>`);
 }
 
+function commitPage({ sha, short, date, message }, fileDiffs) {
+  const sections = fileDiffs.map(({ filename, diff }) => {
+    const diffHtml = renderDiff(diff);
+    return `  <section class="file-diff">
+    <h2><a href="${slug(filename)}.html">${esc(filename)}</a></h2>
+    ${diffHtml ? `<div class="diff-block" role="region" aria-label="changes to ${esc(filename)}">\n${diffHtml}\n    </div>` : ''}
+  </section>`;
+  }).join('\n\n');
+
+  return page(`${short} — mturro/poem`, `<header>
+  <a href="index.html" class="back">&larr; mturro/poem</a>
+  <h1>commit ${short}</h1>
+  <p class="cmd"><code>$ git show ${short}</code></p>
+  <p class="commit-full-msg">${esc(message)}</p>
+  <p class="date">${date}</p>
+</header>
+
+<main>
+${sections}
+</main>
+
+<footer>
+  <a href="${REPO}/commit/${sha}" rel="noopener">view on github</a>
+</footer>`);
+}
+
 function poemPage(filename, commits) {
   const sections = commits.map(({ short, sha, date, message }) => {
     const diff    = fileDiff(sha, filename);
     const diffHtml = renderDiff(diff);
     return `  <section class="commit" aria-label="commit ${short}">
     <div class="commit-meta">
-      <a href="${REPO}/commit/${sha}" class="sha" rel="noopener">${short}</a>
+      <a href="${short}.html" class="sha">${short}</a>
       <span class="date">${date}</span>
       <span class="msg">${esc(message)}</span>
     </div>
@@ -218,6 +250,13 @@ console.log('  index.html');
 for (const { filename, commits: c } of poems) {
   fs.writeFileSync(path.join(DIST, `${slug(filename)}.html`), poemPage(filename, c));
   console.log(`  ${slug(filename)}.html`);
+}
+
+for (const commit of commits) {
+  const files    = commitFiles(commit.sha);
+  const fileDiffs = files.map(filename => ({ filename, diff: fileDiff(commit.sha, filename) }));
+  fs.writeFileSync(path.join(DIST, `${commit.short}.html`), commitPage(commit, fileDiffs));
+  console.log(`  ${commit.short}.html`);
 }
 
 console.log('done.');

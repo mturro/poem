@@ -132,6 +132,16 @@ footer a:hover { color: var(--link); }
   color:      var(--fg-dim);
 }
 
+/* ── commit page ── */
+.commit-full-msg {
+  color:      var(--fg-bright);
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+.file-diff { margin: 2.5rem 0; }
+.file-diff h2 { font-size: 0.9rem; color: var(--fg-dim); margin-bottom: 0.5rem; font-weight: normal; }
+
 /* ── poem page: commit sections ── */
 .commit {
   margin: 2.5rem 0;
