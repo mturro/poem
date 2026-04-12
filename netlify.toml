@@ -1,0 +1,7 @@
+[build]
+  command = "node web/build.js"
+  publish = "web/dist"
+
+[build.environment]
+  GIT_DEPTH   = "0"
+  NODE_VERSION = "20"

@@ -1,0 +1,197 @@
+/* style.css — mturro/poem */
+
+:root {
+  --bg:        #111;
+  --fg:        #c9d1d9;
+  --fg-dim:    #6e7681;
+  --fg-bright: #e6edf3;
+  --add-bg:    #0d2217;
+  --add-fg:    #3fb950;
+  --del-bg:    #2d1217;
+  --del-fg:    #f85149;
+  --hunk-bg:   #0d1b2e;
+  --hunk-fg:   #6e7681;
+  --link:      #58a6ff;
+  --border:    #21262d;
+  --font:      ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo,
+               Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  background: var(--bg);
+  color:      var(--fg);
+  font-family: var(--font);
+  font-size:  14px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  max-width: 860px;
+  margin:    0 auto;
+  padding:   2rem 1.25rem;
+}
+
+/* ── links ── */
+a { color: var(--link); text-decoration: none; }
+a:hover, a:focus { text-decoration: underline; outline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--link); border-radius: 2px; }
+
+/* ── headings ── */
+h1 {
+  font-size:   1.1rem;
+  font-weight: normal;
+  color:       var(--fg-bright);
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  font-size:   0.8rem;
+  font-weight: normal;
+  color:       var(--fg-dim);
+  margin:      2.5rem 0 0.75rem;
+  text-transform: lowercase;
+  letter-spacing: 0.06em;
+}
+
+/* ── layout ── */
+header {
+  padding-bottom: 1.25rem;
+  margin-bottom:  1.5rem;
+  border-bottom:  1px solid var(--border);
+}
+
+footer {
+  margin-top:   3rem;
+  padding-top:  1rem;
+  border-top:   1px solid var(--border);
+  font-size:    0.8rem;
+  color:        var(--fg-dim);
+}
+
+footer a { color: var(--fg-dim); }
+footer a:hover { color: var(--link); }
+
+/* ── index: subtitle ── */
+.subtitle {
+  font-size: 0.82rem;
+  color:     var(--fg-dim);
+  margin-top: 0.2rem;
+}
+
+/* ── index: poem list ── */
+.poem-list {
+  list-style: none;
+  border-top: 1px solid var(--border);
+}
+
+.poem-list li {
+  display:        flex;
+  align-items:    baseline;
+  gap:            1rem;
+  padding:        0.4rem 0;
+  border-bottom:  1px solid var(--border);
+}
+
+.poem-list .meta {
+  margin-left: auto;
+  color:       var(--fg-dim);
+  font-size:   0.78rem;
+  white-space: nowrap;
+}
+
+/* ── index: git log ── */
+.git-log { border-top: 1px solid var(--border); }
+
+.log-line {
+  display:       flex;
+  gap:           1rem;
+  padding:       0.25rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items:   baseline;
+  flex-wrap:     wrap;
+}
+
+.log-line .sha  { color: var(--link); flex-shrink: 0; font-size: 0.85rem; }
+.log-line .date { color: var(--fg-dim); flex-shrink: 0; font-size: 0.82rem; }
+.log-line .msg  { color: var(--fg); min-width: 0; }
+
+/* ── poem page: header ── */
+.back {
+  display:       block;
+  font-size:     0.8rem;
+  color:         var(--fg-dim);
+  margin-bottom: 0.6rem;
+}
+
+.cmd {
+  margin-top: 0.4rem;
+  font-size:  0.8rem;
+  color:      var(--fg-dim);
+}
+
+/* ── poem page: commit sections ── */
+.commit {
+  margin: 2.5rem 0;
+}
+
+.commit-meta {
+  display:     flex;
+  gap:         1rem;
+  align-items: baseline;
+  flex-wrap:   wrap;
+  margin-bottom: 0.5rem;
+}
+
+.commit-meta .sha  { font-size: 0.82rem; }
+.commit-meta .date { color: var(--fg-dim); font-size: 0.82rem; flex-shrink: 0; }
+.commit-meta .msg  { color: var(--fg-bright); font-style: italic; }
+
+/* ── diff ── */
+.diff-block {
+  border:        1px solid var(--border);
+  border-radius: 4px;
+  overflow:      hidden;
+  font-size:     0.82rem;
+  line-height:   1.5;
+}
+
+.diff-add,
+.diff-del,
+.diff-ctx,
+.diff-hunk {
+  display:      flex;
+  white-space:  pre-wrap;
+  word-break:   break-word;
+  min-height:   1.4em;
+}
+
+/* the +/- gutter character */
+.diff-add > span,
+.diff-del > span,
+.diff-ctx > span,
+.diff-hunk > span {
+  width:       1.75rem;
+  flex-shrink: 0;
+  text-align:  center;
+  user-select: none;
+  opacity:     0.7;
+}
+
+.diff-add  { background: var(--add-bg);  color: var(--add-fg); }
+.diff-del  { background: var(--del-bg);  color: var(--del-fg); }
+.diff-ctx  { color: var(--fg-dim); }
+.diff-hunk { background: var(--hunk-bg); color: var(--hunk-fg); font-style: italic; }
+
+/* ── responsive ── */
+@media (max-width: 580px) {
+  html { font-size: 13px; }
+
+  .poem-list li    { flex-direction: column; gap: 0.1rem; }
+  .poem-list .meta { margin-left: 0; }
+
+  .log-line { gap: 0.5rem; }
+  .commit-meta { gap: 0.5rem; }
+}
