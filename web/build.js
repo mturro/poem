@@ -199,7 +199,7 @@ function indexPage(poems, commits, readmeHtml) {
       </li>`;
   }).join('\n');
 
-  const logLines = commits.map(({ short, sha, date, message }) =>
+  const logLines = commits.slice().reverse().map(({ short, date, message }) =>
     `    <div class="log-line">` +
     `<a href="${short}.html" class="sha">${short}</a>` +
     `<span class="date">${date}</span>` +
